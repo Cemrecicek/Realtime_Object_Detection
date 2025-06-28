@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Ana uygulama teması - action bar'ı gizle -->
+    <style name="Theme.RealtimeProject" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Action bar'ı gizle -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Tam ekran modu -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Splash screen teması -->
+    <style name="Theme.RealtimeProject.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Arka plan rengi -->
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <!-- Tam ekran modu -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Status bar'ı gizle -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>
